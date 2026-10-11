@@ -1,0 +1,21 @@
+model,strategy_label,covariate_skew,iid,label_skew
+logistic,Centralized,0.7158,0.7205,0.7184
+logistic,DP sigma=0.1,0.683,0.6833,0.6765
+logistic,DP sigma=0.25,0.659,0.6571,0.6419
+logistic,DP sigma=0.5,0.5874,0.5974,0.581
+logistic,DP sigma=1.0,0.5581,0.5659,0.5468
+logistic,DP sigma=2.0,0.5781,0.586,0.576
+logistic,FedAvg,0.7189,0.7201,0.7206
+logistic,FedProx mu=0.01,0.7189,0.7201,0.7206
+logistic,FedProx mu=0.1,0.719,0.72,0.7208
+logistic,Local-only,0.6736,0.7003,0.6743
+mlp,Centralized,0.6965,0.701,0.6946
+mlp,DP sigma=0.1,0.6244,0.6579,0.6437
+mlp,DP sigma=0.25,0.5347,0.5528,0.5349
+mlp,DP sigma=0.5,0.5237,0.5267,0.5273
+mlp,DP sigma=1.0,0.5394,0.5516,0.5487
+mlp,DP sigma=2.0,0.5017,0.5098,0.5152
+mlp,FedAvg,0.7076,0.7089,0.6903
+mlp,FedProx mu=0.01,0.7074,0.7091,0.6902
+mlp,FedProx mu=0.1,0.7085,0.7095,0.6937
+mlp,Local-only,0.6095,0.6403,0.6326

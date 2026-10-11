@@ -1,0 +1,7 @@
+study,scale,data_kind,privacy,heterogeneity,notes
+"McMahan et al. (2017), FedAvg",Benchmark image + language,CIFAR / Shakespeare,None,Non-IID partitions,Introduced FedAvg
+"Li et al. (2020), FedProx",Benchmark + synthetic,Synthetic convex,None,Controlled non-IID,Proximal term mu
+"McMahan et al. (2018), DP-FedAvg",Benchmark,Image + language,Client-level DP,Non-IID,Clipping + Gaussian noise
+Rieke et al. (2020),Healthcare survey,Review / position,Discussion,Clinical,FL in medical imaging
+Ayed et al. (2020),Small healthcare,Stroke + open datasets,None,Limited,FedAvg on clinical data
+This work,"5 silos; 4,240 adult participants",Framingham Heart Study,DP-FedAvg client-level,IID / Dirichlet label skew / age-band,Controlled evaluation; paired statistics; no FL framework

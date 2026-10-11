@@ -1,0 +1,61 @@
+model,regime,strategy_label,roc_auc_mean,roc_auc_std,n_seeds
+logistic,covariate_skew,Centralized,0.715774,0.019661,5
+logistic,covariate_skew,DP sigma=0.1,0.682988,0.029615,5
+logistic,covariate_skew,DP sigma=0.25,0.659016,0.053132,5
+logistic,covariate_skew,DP sigma=0.5,0.587377,0.069557,5
+logistic,covariate_skew,DP sigma=1.0,0.558074,0.073059,5
+logistic,covariate_skew,DP sigma=2.0,0.578051,0.05273,5
+logistic,covariate_skew,FedAvg,0.718921,0.022898,5
+logistic,covariate_skew,FedProx mu=0.01,0.718923,0.022884,5
+logistic,covariate_skew,FedProx mu=0.1,0.71897,0.022896,5
+logistic,covariate_skew,Local-only,0.673604,0.019292,5
+logistic,iid,Centralized,0.720536,0.023583,5
+logistic,iid,DP sigma=0.1,0.683305,0.029667,5
+logistic,iid,DP sigma=0.25,0.657123,0.055061,5
+logistic,iid,DP sigma=0.5,0.597399,0.062882,5
+logistic,iid,DP sigma=1.0,0.565867,0.059602,5
+logistic,iid,DP sigma=2.0,0.586026,0.058129,5
+logistic,iid,FedAvg,0.720083,0.023185,5
+logistic,iid,FedProx mu=0.01,0.720061,0.02317,5
+logistic,iid,FedProx mu=0.1,0.720014,0.023098,5
+logistic,iid,Local-only,0.700314,0.018162,5
+logistic,label_skew,Centralized,0.718412,0.024623,5
+logistic,label_skew,DP sigma=0.1,0.676478,0.042715,5
+logistic,label_skew,DP sigma=0.25,0.641856,0.080337,5
+logistic,label_skew,DP sigma=0.5,0.581014,0.065532,5
+logistic,label_skew,DP sigma=1.0,0.54675,0.078728,5
+logistic,label_skew,DP sigma=2.0,0.575986,0.057505,5
+logistic,label_skew,FedAvg,0.720564,0.019393,5
+logistic,label_skew,FedProx mu=0.01,0.720587,0.019447,5
+logistic,label_skew,FedProx mu=0.1,0.720801,0.019748,5
+logistic,label_skew,Local-only,0.674318,0.026292,5
+mlp,covariate_skew,Centralized,0.696514,0.011122,5
+mlp,covariate_skew,DP sigma=0.1,0.624429,0.050022,5
+mlp,covariate_skew,DP sigma=0.25,0.534651,0.075646,5
+mlp,covariate_skew,DP sigma=0.5,0.523666,0.048158,5
+mlp,covariate_skew,DP sigma=1.0,0.539356,0.062576,5
+mlp,covariate_skew,DP sigma=2.0,0.501743,0.060939,5
+mlp,covariate_skew,FedAvg,0.707552,0.013869,5
+mlp,covariate_skew,FedProx mu=0.01,0.707391,0.014085,5
+mlp,covariate_skew,FedProx mu=0.1,0.708493,0.014088,5
+mlp,covariate_skew,Local-only,0.609491,0.018289,5
+mlp,iid,Centralized,0.700958,0.010486,5
+mlp,iid,DP sigma=0.1,0.657897,0.043471,5
+mlp,iid,DP sigma=0.25,0.552762,0.090791,5
+mlp,iid,DP sigma=0.5,0.526657,0.030747,5
+mlp,iid,DP sigma=1.0,0.551621,0.062231,5
+mlp,iid,DP sigma=2.0,0.509778,0.063935,5
+mlp,iid,FedAvg,0.708928,0.014155,5
+mlp,iid,FedProx mu=0.01,0.709055,0.014131,5
+mlp,iid,FedProx mu=0.1,0.709459,0.01382,5
+mlp,iid,Local-only,0.640332,0.014129,5
+mlp,label_skew,Centralized,0.694574,0.012771,5
+mlp,label_skew,DP sigma=0.1,0.643747,0.047489,5
+mlp,label_skew,DP sigma=0.25,0.534882,0.079895,5
+mlp,label_skew,DP sigma=0.5,0.527292,0.028232,5
+mlp,label_skew,DP sigma=1.0,0.548705,0.052643,5
+mlp,label_skew,DP sigma=2.0,0.51522,0.069098,5
+mlp,label_skew,FedAvg,0.690298,0.00951,5
+mlp,label_skew,FedProx mu=0.01,0.690231,0.009816,5
+mlp,label_skew,FedProx mu=0.1,0.693748,0.005301,5
+mlp,label_skew,Local-only,0.632648,0.0345,5

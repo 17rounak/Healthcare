@@ -1,0 +1,21 @@
+parameter,value
+dataset,"Framingham Heart Study (4,240)"
+n_silos,5
+test_fraction,0.2
+rounds,40
+local_epochs,2
+learning_rate,0.1
+batch_size,64
+positive_class_weight,5.59
+negative_class_weight,1.0
+dirichlet_alpha,0.5
+dp_clip_norm_C,1.0
+dp_sigmas,"0.1,0.25,0.5,1.0,2.0"
+fedprox_mus,"0.01,0.1"
+seeds,"0,1,2,3,4"
+dp_delta,1e-05
+bootstrap_samples,10000
+practical_auc_delta,0.01
+mlp_hidden_units,16
+logistic_n_params,16
+mlp_n_params,273
